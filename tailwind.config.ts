@@ -59,7 +59,8 @@ export default {
 					"white": "#FFFFFF",
 					"purple": "#9b87f5",
 					"gray": "#F1F0FB",
-					"teal": "#4FD1C7"
+					"teal": "#4FD1C7",
+					"rosa": "#e7a2b8"
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',

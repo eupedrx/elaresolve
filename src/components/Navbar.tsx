@@ -36,7 +36,7 @@ const Navbar = () => {
           {/* Auth Buttons - Desktop */}
           <div className="hidden md:flex items-center space-x-4">
             <Link to="/login">
-              <Button variant="outline" className="rounded-full border-ela-purple text-ela-purple hover:bg-ela-lilac">
+              <Button variant="outline" className="rounded-full border-ela-purple text-white bg-ela-rosa hover:bg-ela-lilac">
                 Login
               </Button>
             </Link>
@@ -69,13 +69,13 @@ const Navbar = () => {
                 Seja uma Prestadora
               </Link>
               <div className="flex space-x-4 pt-2">
-                <Link to="/login" className="w-full" onClick={toggleMenu}>
-                  <Button variant="outline" className="w-full rounded-full border-ela-purple text-ela-purple">
+                <Link to="/login" className="w-full " onClick={toggleMenu}>
+                  <Button variant="outline" className="w-full rounded-full border-ela-purple bg-ela-rosa hover:bg-ela-purple hover:text-black text-ela-white">
                     Login
                   </Button>
                 </Link>
                 <Link to="/cadastro" className="w-full" onClick={toggleMenu}>
-                  <Button className="w-full bg-ela-purple hover:bg-ela-purple/90 text-white rounded-full">
+                  <Button className="w-full bg-ela-purple hover:bg-ela-rosa hover:text-black text-white rounded-full">
                     Cadastre-se
                   </Button>
                 </Link>

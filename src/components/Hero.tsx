@@ -25,7 +25,7 @@ const Hero = () => {
                 </Button>
               </Link>
               <Link to="/seja-prestadora" className="w-full sm:w-auto">
-                <Button variant="outline" className="w-full rounded-full border-ela-purple text-ela-purple hover:bg-ela-lilac px-8 py-6 text-lg">
+                <Button variant="outline" className="w-full rounded-full border-ela-purple text-white bg-ela-rosa  hover:bg-ela-lilac px-8 py-6 text-lg">
                   Quero ser prestadora
                 </Button>
               </Link>

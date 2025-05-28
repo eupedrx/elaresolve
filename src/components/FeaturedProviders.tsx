@@ -2,6 +2,8 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Star } from "lucide-react";
 
+
+
 // Dados das prestadoras em destaque
 const providers = [
   {
@@ -53,6 +55,7 @@ const FeaturedProviders = () => {
                     src={provider.photo} 
                     alt={provider.name} 
                     className="w-full h-full object-cover"
+                    style={[2, 3].includes(provider.id) ? { objectPosition: 'center 29%' } : {}}
                   />
                 </div>
                 <div className="p-6">
