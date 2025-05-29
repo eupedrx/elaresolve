@@ -37,11 +37,11 @@ const providers = [
 
 const FeaturedProviders = () => {
   return (
-    <section className="section bg-ela-lilac">
+    <section className="section bg-ela-purpleb">
       <div className="container-custom">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Prestadoras em Destaque</h2>
-          <p className="text-gray-700 max-w-2xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-ela-gray">Prestadoras em Destaque</h2>
+          <p className="text-white max-w-2xl mx-auto">
             Profissionais com as melhores avaliações e recomendações na plataforma
           </p>
         </div>
@@ -58,20 +58,20 @@ const FeaturedProviders = () => {
                     style={[2, 3].includes(provider.id) ? { objectPosition: 'center 29%' } : {}}
                   />
                 </div>
-                <div className="p-6">
+                <div className="p-6 bg-ela-lilac">
                   <div className="flex justify-between items-center mb-2">
-                    <h3 className="font-bold text-xl">{provider.name}</h3>
-                    <div className="bg-gray-950/20 text-black text-xs font-medium py-1 px-2 rounded-full border border-ela-teal/30">
+                    <h3 className="font-bold text-xl text-ela-white">{provider.name}</h3>
+                    <div className="bg-ela-purpleb text-white border-ela-purpleb text-xs font-medium py-1 px-2 rounded-full border border-ela-teal/30">
                       {provider.category}
                     </div>
                   </div>
-                  <p className="text-gray-600 mb-3">{provider.description}</p>
+                  <p className="text-white mb-3">{provider.description}</p>
                   <div className="flex items-center">
-                    <div className="flex items-center text-ela-purple mr-2">
+                    <div className="flex items-center text-yellow-600 mr-2">
                       <Star size={16} fill="currentColor" />
-                      <span className="ml-1 font-bold">{provider.rating}</span>
+                      <span className="ml-1 font-bold text-yellow-500">{provider.rating}</span>
                     </div>
-                    <span className="text-gray-500 text-sm">({provider.reviewCount} avaliações)</span>
+                    <span className="text-ela-white text-sm">({provider.reviewCount} avaliações)</span>
                   </div>
                 </div>
               </CardContent>
@@ -80,7 +80,7 @@ const FeaturedProviders = () => {
         </div>
 
         <div className="text-center mt-10">
-          <a href="/prestadoras" className="btn-secondary">
+          <a href="/prestadoras" className="btn-secondary text-ela-white bg-ela-lilac">
             Ver todas as prestadoras
           </a>
         </div>

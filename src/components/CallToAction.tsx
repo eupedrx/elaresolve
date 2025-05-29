@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const CallToAction = () => {
   return (
-    <section className="py-16 bg-gradient-to-r from-ela-purple to-ela-purple/80 text-white">
+    <section className="py-16 bg-ela-purpleb text-white">
       <div className="container-custom">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="mb-8 md:mb-0 md:w-2/3">
@@ -17,7 +17,7 @@ const CallToAction = () => {
           
           <div className="flex flex-col sm:flex-row gap-4">
             <Link to="/cadastro">
-              <button className="bg-white text-ela-purple hover:bg-white/90 px-8 py-3 rounded-full font-semibold shadow-lg transition-all">
+              <button className="bg-white text-ela-purpleb hover:bg-white/90 px-8 py-3 rounded-full font-semibold shadow-lg transition-all">
                 Cadastre-se gratuitamente
               </button>
             </Link>

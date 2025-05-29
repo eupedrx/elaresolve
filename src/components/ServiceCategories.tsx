@@ -54,7 +54,7 @@ const ServiceCategories = () => {
     <section className="section bg-ela-gray">
       <div className="container-custom">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Categorias de Serviços</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-ela-purpleb">Categorias de Serviços</h2>
           <p className="text-gray-700 max-w-2xl mx-auto">
             Encontre prestadoras de serviços especializadas em diversas áreas, todas reunidas em um só lugar
           </p>
@@ -66,12 +66,12 @@ const ServiceCategories = () => {
             return (
               <Link to={category.link} key={category.id}>
                 <Card className="h-full card-hover border-ela-lilac/20 bg-ela-pink">
-                  <CardContent className="p-6 flex flex-col items-center text-center">
+                  <CardContent className="p-6 flex flex-col items-center text-center text-ela-gray">
                     <div className="text-ela-purple mb-4">
                       <IconComponent size={48} />
                     </div>
                     <h3 className="font-bold text-xl mb-2">{category.name}</h3>
-                    <p className="text-gray-600">{category.description}</p>
+                    <p className="text-white">{category.description}</p>
                   </CardContent>
                 </Card>
               </Link>
@@ -81,7 +81,7 @@ const ServiceCategories = () => {
         
         <div className="text-center mt-10">
           <Link to="/categorias">
-            <button className="btn-secondary">
+            <button className="btn-secondary text-white">
               Ver todas as categorias
             </button>
           </Link>

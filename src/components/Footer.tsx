@@ -18,7 +18,7 @@ const Footer = () => {
 
           {/* Links rápidos */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Links Rápidos</h3>
+            <h3 className="text-lg font-semibold mb-4 text-ela-purpleb">Links Rápidos</h3>
             <ul className="space-y-2">
               <li>
                 <Link to="/categorias" className="text-gray-600 hover:text-ela-purple">
@@ -40,7 +40,7 @@ const Footer = () => {
 
           {/* Políticas */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Políticas</h3>
+            <h3 className="text-lg font-semibold mb-4 text-ela-purpleb">Políticas</h3>
             <ul className="space-y-2">
               <li>
                 <Link to="/privacidade" className="text-gray-600 hover:text-ela-purple">
@@ -62,7 +62,7 @@ const Footer = () => {
 
           {/* Contato */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Contato</h3>
+            <h3 className="text-lg font-semibold mb-4 text-ela-purpleb">Contato</h3>
             <ul className="space-y-2">
               <li className="text-gray-600">
                 contato@elaresolve.com.br

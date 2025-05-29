@@ -32,8 +32,8 @@ const Testimonials = () => {
     <section className="section bg-ela-lilac">
       <div className="container-custom">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">O que dizem sobre nós</h2>
-          <p className="text-gray-700 max-w-2xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-ela-white">O que dizem sobre nós</h2>
+          <p className="text-ela-gray max-w-2xl mx-auto">
             Experiências reais de mulheres que já utilizaram a plataforma
           </p>
         </div>
@@ -51,7 +51,7 @@ const Testimonials = () => {
                     />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg">{item.name}</h3>
+                    <h3 className="font-semibold text-lg text-ela-purpleb">{item.name}</h3>
                     <div className="flex">
                       {[...Array(item.rating)].map((_, i) => (
                         <Star key={i} size={16} fill="#9b87f5" color="#9b87f5" />

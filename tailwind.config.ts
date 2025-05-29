@@ -54,11 +54,12 @@ export default {
 				},
 				// Cores personalizadas para Ela Resolve
 				"ela": {
-					"lilac": "#E5DEFF",
-					"pink": "#FFDEE2",
+					"lilac": "#a77aa7",
+					"pink": "#3B0764",
 					"white": "#FFFFFF",
 					"purple": "#9b87f5",
-					"gray": "#F1F0FB",
+					"purpleb": "#3B0764",
+					"gray": "#cccccc",
 					"teal": "#4FD1C7",
 					"rosa": "#e7a2b8"
 				},
