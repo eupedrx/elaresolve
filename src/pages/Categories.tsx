@@ -114,12 +114,12 @@ const Categories = () => {
   return (
     <Layout>
       {/* Header da página */}
-      <div className="bg-ela-lilac py-12">
+      <div className="bg-ela-purpleb py-12">
         <div className="container-custom">
-          <h1 className="text-3xl md:text-4xl font-bold mb-4 text-center">
+          <h1 className="text-3xl text-ela-gray md:text-4xl font-bold mb-4 text-center">
             Categorias de Serviços
           </h1>
-          <p className="text-center text-gray-700 max-w-2xl mx-auto mb-8">
+          <p className="text-center text-white max-w-2xl mx-auto mb-8">
             Explore todas as categorias disponíveis e encontre prestadoras qualificadas para o serviço que você precisa
           </p>
           
@@ -146,15 +146,15 @@ const Categories = () => {
             {filteredCategories.length > 0 ? (
               filteredCategories.map((category) => (
                 <Link to={category.link} key={category.id}>
-                  <Card className="h-full card-hover border-ela-lilac/20 bg-ela-lilac">
+                  <Card className="h-full card-hover border-ela-lilac/20 bg-ela-purpleb">
                     <CardContent className="p-6">
                       <div className="flex items-center mb-4">
                         <div className="text-4xl mr-4">{category.icon}</div>
-                        <h3 className="font-bold text-xl">{category.name}</h3>
+                        <h3 className="font-bold text-xl text-white">{category.name}</h3>
                       </div>
-                      <p className="text-gray-600 mb-4">{category.description}</p>
+                      <p className="text-ela-gray mb-4">{category.description}</p>
                       <div>
-                        <h4 className="font-medium text-sm text-gray-700 mb-2">Serviços populares:</h4>
+                        <h4 className="font-medium text-sm text-ela-gray mb-2">Serviços populares:</h4>
                         <div className="flex flex-wrap gap-2">
                           {category.subcategories.slice(0, 3).map((subcategory, idx) => (
                             <span 

@@ -33,7 +33,7 @@ const HowItWorks = () => {
     <section className="section bg-ela-gray">
       <div className="container-custom">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Como Funciona</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-ela-purpleb">Como Funciona</h2>
           <p className="text-gray-700 max-w-2xl mx-auto">
             Em apenas alguns passos simples, você encontra a profissional ideal para o serviço que precisa
           </p>
@@ -41,19 +41,19 @@ const HowItWorks = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {steps.map((step, index) => (
-            <div key={step.id} className="bg-white rounded-xl p-6 shadow-sm text-center">
+            <div key={step.id} className="bg-ela-purpleb rounded-xl p-6 shadow-sm text-center">
               <div className={`w-16 h-16 ${index % 2 === 0 ? 'bg-ela-lilac' : 'bg-ela-teal/20'} rounded-full flex items-center justify-center mx-auto mb-4`}>
                 <span className="text-2xl">{step.icon}</span>
               </div>
-              <h3 className="font-bold text-xl mb-2">{step.title}</h3>
-              <p className="text-gray-600">{step.description}</p>
+              <h3 className="font-bold text-xl mb-2 text-ela-gray">{step.title}</h3>
+              <p className="text-white">{step.description}</p>
             </div>
           ))}
         </div>
 
         <div className="text-center mt-12">
           <Link to="/como-funciona">
-            <button className="btn-primary">
+            <button className="btn-primary text-ela-gray bg-ela-purpleb">
               Saiba mais sobre o processo
             </button>
           </Link>
